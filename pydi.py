@@ -106,7 +106,7 @@ if __name__ == '__main__':
     parser.add_argument('-n', '--names', help="just the names", action="store_true")
     parser.add_argument('-nk', '--no-key', help="just the urls no keys", action="store_true")
     args = parser.parse_args()
-    print args
+
     if args.key:
         with open('key','w') as f:
             f.write(args.key+"\n")
