@@ -1,0 +1,4 @@
+*.pickle
+key
+.DS_STORE
+.idea
