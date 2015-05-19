@@ -85,8 +85,8 @@ def load_key():
 
     if os.path.exists('key'):
         with open('key', 'r') as f:
-            key = f.readline()
-    return key.strip()
+            key = f.readline().strip()
+    return key
 
 if __name__ == '__main__':
 
